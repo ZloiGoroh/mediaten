@@ -2,7 +2,6 @@
 defineProps({
   sectionTitle: {
     type: String,
-    required: true,
   },
 })
 </script>
@@ -10,7 +9,7 @@ defineProps({
 <template>
   <div class="section-container">
     <div class="section-container__heading">
-      <h3 class="section-container__head">{{ sectionTitle }}</h3>
+      <h3 class="section-container__head" v-if="sectionTitle">{{ sectionTitle }}</h3>
       <div>
         Все <img src="/icons/dark-arrow.svg" alt="dark-arrow" />
       </div>

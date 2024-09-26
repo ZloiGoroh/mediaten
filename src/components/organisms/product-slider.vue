@@ -1,7 +1,7 @@
 <script setup>
 import ProductCard from '@/components/molecules/product-card.vue';
 import SectionContainer from '@/components/molecules/section-container.vue';
-import {nextTick, onMounted, ref} from 'vue';
+import {ref} from 'vue';
 
 defineProps({
   listTitle: {
@@ -75,6 +75,7 @@ const scrollInDirection = (direction = 1) => {
     top: 124px;
     cursor: pointer;
     box-shadow: 0 3px 9px 0 #3D3D3D17;
+    z-index: 10;
 
     img {
       margin: auto

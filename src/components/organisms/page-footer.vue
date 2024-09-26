@@ -34,7 +34,7 @@ const footerColumns = [
         </div>
       </div>
       <div>
-        © ООО «КОМПАНИЯ», 2022 Юр. адрес: Москва, Пушкина б-р, 1, оф. 123
+        © ООО «КОМПАНИЯ», 2022 Юр. адрес: Москва, Пушкина б-р, 1, оф. 123
       </div>
     </div>
   </footer>
@@ -42,8 +42,7 @@ const footerColumns = [
 
 <style lang="scss">
   .page-footer {
-    margin-top: 80px;
-    padding: 56px 0 80px;
+    padding: 80px 0;
     font-size: 13px;
     color: var(--main-black);
 

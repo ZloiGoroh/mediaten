@@ -4,21 +4,27 @@ import StarScore from '@/components/atoms/star-score.vue';
 defineProps({
   price: {
     type: [String, Number],
+    default: '',
   },
   article: {
     type: String,
+    default: '',
   },
   image: {
     type: String,
+    default: '',
   },
   score: {
     type: String,
+    default: '',
   },
   title: {
     type: String,
+    default: '',
   },
   supplier: {
     type: String,
+    default: '',
   },
   discount: {
     type: [String, Number],

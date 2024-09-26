@@ -10,7 +10,9 @@ defineProps({
 <template>
   <div class="breadcrumb-list small-text">
     <template v-for="(breadcrumb, idx) in breadcrumbList" :key="idx" >
-      {{ breadcrumb.label }}
+      <span>
+        {{ breadcrumb.label }}
+      </span>
       <img v-if="idx < breadcrumbList.length - 1" src="/icons/arrow.svg" alt="arrow"/>
     </template>
   </div>
