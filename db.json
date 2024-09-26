@@ -1,0 +1,140 @@
+{
+  "suppliers": [
+    {
+      "name": "Australia",
+      "avatar": "Australia",
+      "score": "5.0"
+    },
+    {
+      "name": "Моменталь",
+      "avatar": "momental",
+      "score": "4.4"
+    },
+    {
+      "name": "Витула групп",
+      "avatar": "vitula",
+      "score": "4.9"
+    },
+    {
+      "name": "Добрынинский",
+      "avatar": "dobrininskiy",
+      "score": "4.9"
+    },
+    {
+      "name": "ИНДИФУД",
+      "avatar": "indifood",
+      "score": "4.8"
+    },
+    {
+      "name": "De Luca",
+      "avatar": "deluca",
+      "score": "4.9"
+    },
+    {
+      "name": "Абсолют",
+      "avatar": "absolut",
+      "score": "4.1"
+    },
+    {
+      "name": "Титан",
+      "avatar": "titan",
+      "score": "4.7"
+    },
+    {
+      "name": "Торговый дом «ЛИОН»",
+      "avatar": "lion",
+      "score": "4.3"
+    },
+    {
+      "name": "Крестьянские Деликатесы",
+      "avatar": "delicacy",
+      "score": "4.7"
+    },
+    {
+      "name": "Курофф",
+      "avatar": "kuroff",
+      "score": "4.8"
+    },
+    {
+      "name": " «Остожье»",
+      "avatar": "ostojie",
+      "score": "5.0"
+    }
+  ],
+  "popular-goods": [
+    {
+      "price": 37,
+      "article": "957.184.803.2",
+      "image": "milko",
+      "score": "5.0",
+      "title": "«Мио Милк» ультрапастеризо-\u2028ванное, 3.5 %, 1 л",
+      "supplier": "«Плато-С»"
+    },
+    {
+      "price": 43,
+      "article": "740.502.381.4",
+      "image": "comfy",
+      "score": "4.0",
+      "title": "«Comfy» безлактозное, 3.5 %, 1 л",
+      "supplier": "«Каскад»"
+    },
+    {
+      "price": 37,
+      "article": "928.291.149.1",
+      "image": "minsk-milk",
+      "score": "5.0",
+      "title": "«Минская марка» пастеризован-\u2028ное цельное, 2.5 %, 900 мл",
+      "supplier": "«Катарина»"
+    },
+    {
+      "price": 35,
+      "article": "154.983.084.2",
+      "image": "danissimo",
+      "score": "4.4",
+      "title": "Йогурт «Mleko» с шоколадой крошкой, 5.2 %, 145 г",
+      "supplier": "«Melko»"
+    }
+  ],
+  "bargain-goods": [
+    {
+      "price": "170.00",
+      "discount": 10,
+      "oldPrice": "42.00",
+      "article": "893.157.392.4",
+      "image": "cottage-milk",
+      "score": "4.9",
+      "title": "Творог Искренне ваш 9 %",
+      "supplier": "«Абсолют»"
+    },
+    {
+      "price": "125.00",
+      "discount": 10,
+      "oldPrice": "42.00",
+      "article": "893.157.392.4",
+      "image": "kefir",
+      "score": "4.6",
+      "title": "Домик в деревне Кефир 1 %",
+      "supplier": "«Абсолют»"
+    },
+    {
+      "price": "123",
+      "discount": 10,
+      "oldPrice": "42.00",
+      "article": "741.559.950.3",
+      "image": "sulguni",
+      "score": "5.0",
+      "title": "Сыр Сулугуни Чабрец 45% ",
+      "supplier": "«Агрофирма»"
+    },
+    {
+      "price": "94",
+      "discount": 10,
+      "oldPrice": "42.00",
+      "article": "840.391.554.2",
+      "image": "cheese",
+      "score": "5.0",
+      "title": "Hochland Творожный сыр сливочный 140 г",
+      "supplier": "«De Luca»"
+    }
+  ]
+}

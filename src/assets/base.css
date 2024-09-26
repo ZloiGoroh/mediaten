@@ -1,0 +1,63 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --main-gray: #A2A2A2;
+  --main-black: #454545;
+  --main-pink: #B585FF;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Noto Sans", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  overflow-x: hidden;
+}
+
+button {
+    border: none;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+.page-wrapper {
+  width: 100%;
+  padding: 0 20px;
+  max-width: 1200px;
+}
+
+.small-text {
+  color: var(--main-gray);
+  font-size: 13px;
+}
+
+.four-column-grid {
+    --columns-count: 4;
+    display: grid;
+    grid-template-columns: repeat(var(--columns-count), 1fr);
+}
+
+@media (max-width:1200px) {
+    .four-column-grid {
+        --columns-count: 3;
+    }
+}
+@media (max-width:800px) {
+    .four-column-grid {
+        --columns-count: 2;
+    }
+}
+@media (max-width:480px) {
+    .four-column-grid {
+        --columns-count: 1;
+    }
+}
